@@ -1,0 +1,96 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of bloods are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell blood and provides you the information about differnt blood present near you. ",
+          "we have all kind of blood."
+
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Gpay?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept credit card , Mastercard and Gpay",
+          "We accept most major credit cards, and Gpay"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 24 hours",
+          "Shipping takes 24 hours"
+        ]
+      },
+      {
+        "tag": "register",
+        "patterns": [
+          "How do I register",
+          "I am a new user",
+          "How to start"
+        ],
+        "responses": [
+          "If you are a new user of our website then you have to resister first using this link : http://localhost:3000/Register if not a new user than login using this link : http://localhost:3000/Login  ",
+          "http://localhost:3000/Register"
+        ]
+      },
+      {
+        "tag": "register_hospital",
+        "patterns": [
+          "Where should I register as a blood bank owner ?",
+          "I am a blood bank owner",
+          "I have a blood bank "
+        ],
+        "responses": [
+          "If you are a new user of our website then you have to resister first using this link : http://localhost:3000/Register if not a new user than login using this link : http://localhost:3000/Login "
+        ]
+      }
+    ]
+  }
